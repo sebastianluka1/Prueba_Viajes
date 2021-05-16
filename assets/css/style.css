@@ -1,0 +1,19 @@
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+  
+  body {
+    background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+
+.navbar-brand img{  
+    width: 100%;
+    height: auto;}
+.navbar-brand{ 
+    vertical-align: middle;                                                                     
+    width: 30px;
+margin-left: 8%;}

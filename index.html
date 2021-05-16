@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viajes Chile</title>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">  
+   
+<!--CSS de Bootstrap-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+<!--font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" media="screen" />
+
+<!--Llamando al CSS-->
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <header class="header" id="inicio">
+      <div class="container"></div>
+      <div class="row"></div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top bg-transparent">
+        <a class="navbar-brand" href="#"><img class="logo" src="./assets/img/viajes.svg" alt="Logo-feo"> Viajes Chile
+          <a />
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto pr-5">
+              <li class="nav-item-active ">
+                <a class="nav-link active text-white " href="#begin">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#quienessomos">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#destacados">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#Contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+
+
+
+      <div id="carouselExamplefade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div data-ride="carousel" class="carousel slide" data-interval="4000" id="myCarousel"></div>
+              <img class="d-block w-100" src="./assets/img/carousel1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/img/carousel2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/img/carousel3.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <section id="begin" class="container-fluid inline-block justify-content-center d-none d-lg-block pt-2 pb-5"
+        style="width: 90%">
+
+        <section id="quienessomos" class="quienesomos text-white d-none d-md-block">
+          <div class="container">
+            <h2 class="text-center mt-5">¿Quienes somos?</h2>
+            <hr class="bg-info mb-4 mt-4">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="bg-info text-center p-1 mb-1 data-modal" data-toggle="modal" data-target="#plane">
+                  <i class="fas fa-plane"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <div class="bg-info text-center p-1 mt-1 data-modal" data-toggle="modal" data-target="#mountain">
+                  <i class="fas fa-mountain"></i>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="bg-info text-center p-1 mb-1 data-modal" data-toggle="modal" data-target="#map">
+                  <i class="fas fa-route"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+</section>
+<section id= destacados> 
+        <div class="row justify-content-center text-center mb-2">
+    
+          <div class="col-mg-3 mx-3 my-3">
+              <div class="card bg-info text-white" style="width: 16.5rem">
+                  <img src="assets/img/card1.jpg" class="card-img-top"
+                      alt="Reserva nacional Siete Tazas" style="height: 150px;">
+                  
+                  <div class="card-body">
+                      <h5 class="card-title">Reserva nacional Siete Tazas</h5>
+                      <!-- Acá es donde se crea la conexión para el Toggle Event -->
+                      <p class="textToggledone text-sm">
+                          Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
+                          blandit erat luctus, ut nunc magnis est vulputate nostra, blandit erat luctus.
+                      </p>
+          
+                      <a id="buttonToggleone" class="btn btn-dark btn-sm">Ver más</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-mg-3 mx-3 my-3">
+              <div class="card bg-info text-white" style="width: 16.5rem">
+                  <img src="assets/img/card2.jpg" class="card-img-top"
+                      alt="Cañon del arroyo Pedregoso" style="height: 150px;">
+
+                  <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Cañon del arroyo Pedregoso</h5>
+
+                      <!-- Acá es donde se crea la conexión para el Toggle Event -->
+                      <p class="textToggledtwo text-sm">
+                          Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
+                          blandit erat luctus, ut nunc magnis est vulputate nostra, blandit erat luctus.
+                      </p>
+
+                      <a id="buttonToggletwo" class="btn btn-dark btn-sm">Ver más</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-mg-3 mx-3 my-3">
+              <div class="card bg-info text-white" style="width: 16.5rem">
+                  <img src="assets/img/card3.jpg" class="card-img-top"
+                      alt="Gran desierto de Atacama" style="height: 150px;">
+
+                  <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Gran desierto de Atacama</h5>
+                      <p class="textToggledthree text-sm">
+                          Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
+                          blandit erat luctus, ut nunc magnis est vulputate nostra, blandit erat luctus.
+                      </p>
+                      <a id="buttonTogglethree" class="btn btn-dark btn-sm">Ver más</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-mg-3 mx-3 my-3">
+              <div class="card bg-info text-white" style="width: 16.5rem">
+                  <img src="assets/img/card4.jpg" class="card-img-top"
+                      alt="Lluviosa selva Valdiviana" style="height: 150px;">
+
+                  <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Lluviosa selva Valdiviana</h5>
+                      <p class="textToggledfour text-sm">
+                          Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
+                          blandit erat luctus, ut nunc magnis est vulputate nostra, blandit erat luctus.
+                      </p>
+                      <a id="buttonTogglefour" class="btn btn-dark btn-sm">Ver más</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  </section>
+        </section>
+        <section id="Contact">
+            <div class="container mt-5 pt-5">
+                <div class="text-center">
+                    <h4>Contacto</h4>
+                    <hr class="color-turquoise border-bottom">
+                </div>
+                <div class="container my-4">
+                  <div class="typeform-widget" data-url="https://form.typeform.com/to/mkHaf0Jo?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                </div>
+                
+            </div>
+            <footer id="footer" class="bg-info">
+              <div class="container">
+                  <div class="row pt-4">
+                      <div class="col-lg-6 d-none d-lg-block text-white">
+                          <h3 class="footer-text">
+                              VIAJES CHILES
+                          </h3>
+                      </div>
+                      <div class="col-12 col-lg-6 text-white text-center pt-1 pb-4">
+                          <a href="https://github.com/" target="_blank">
+                              <i class="fab fa-github-square fa-2x text-white px-2"></i>
+                          </a>
+                         
+                          <a href="https://www.linkedin.com/" target="_blank">
+                              <i class="fab fa-linkedin fa-2x fa-2x text-white px-2"></i>
+                          </a>
+  
+                          <a href="https://twitter.com/?lang=es" target="_blank">
+                              <i class="fab fa-twitter-square fa-2x text-white px-2"></i>
+                          </a>
+  
+                          <a href="https://www.facebook.com/" target="_blank">
+                              <i class="fab fa-facebook-square fa-2x text-white px-2"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+  
+              <a href="#" class="sticky-button-top text-white">Ir Arriba</a>
+          </footer>
+  <!----- Cierre del Footer -->
+
+
+
+     <!--jQuery 3.5.1 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <!--Popper JS 1.16.1-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+  <!--Bootstrap JS 4.6.0-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+  <!--Llamando al JS-->
+  <script src="assets/js/main.js"></script>
+  </body>
+
+</html>
